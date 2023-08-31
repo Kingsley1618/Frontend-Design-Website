@@ -7,9 +7,7 @@ import {useOpen} from "@/hooks/useOpen"
 import Footer from '@/components/Footer'
 import Pensum from "@/components/Pensum"
 import { useInView } from "framer-motion"
-export const metadata = {
-  title : "Activities"
-}
+
 export default function Activities() {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true });

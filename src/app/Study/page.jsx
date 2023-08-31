@@ -7,9 +7,7 @@ import {AiOutlineStar} from "react-icons/ai"
 import Footer from '@/components/Footer'
 import { useInView } from "framer-motion"
 
-export const metadata = {
-  title : "Study"
-}
+
 export default function Study() {
     const scroll = useRef(null)
     const View = useInView(scroll, { once: true });

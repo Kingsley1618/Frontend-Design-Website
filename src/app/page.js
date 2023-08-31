@@ -6,9 +6,7 @@ import Link from 'next/link'
 import Header from "@/components/Header"
 import { useInView } from "framer-motion"
 
-export const metadata = {
-  title : "Home"
-}
+
 export default function Home() {
  
   const ref = useRef(null)
