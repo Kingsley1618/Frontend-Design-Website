@@ -7,7 +7,7 @@ import {useOpen} from "@/hooks/useOpen"
 import Footer from '@/components/Footer'
 import Pensum from "@/components/Pensum"
 import { useInView } from "framer-motion"
-
+import Image from "next/image"
 export default function Activities() {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true });
@@ -30,7 +30,7 @@ style={{
 <div>Currently the Central University of Venezuela is one of 
   the most prestigious universities in all of Venezuela.</div>
 
- <div className="text-[18px] mt-6">And it has been like that because of their teaching quality, that's right, they are very
+ <div className="text-[18px] mt-6">And it has been like that because of their teaching quality, that&apos;s right, they are very
    good at what they do. Here we leave you a brief summary as far as computing is concerned.</div>
         </div>
 
@@ -103,7 +103,7 @@ style={{
 
 
 <div className="md:mt-0 mt-8">
-  <img src = "/circus.jpg" alt = "circus" className="max-w-[100%]" />
+  <Image src = "/circus.jpg" alt = "circus" className="max-w-[100%]" />
 </div>
         </div>
 

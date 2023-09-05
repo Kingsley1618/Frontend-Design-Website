@@ -1,6 +1,7 @@
 import React,{useRef} from 'react'
 import {HiOutlineDocumentText} from "react-icons/hi"
 import { useInView } from "framer-motion"
+import Image from "next/image"
 import {FaComputer} from "react-icons/fa"
 function Pensum() {
     const ref = useRef(null)
@@ -18,7 +19,7 @@ function Pensum() {
 <h1 className="text-[50px]">Curriculum in Undergraduate</h1>
 <div className="text-[20px] text-[rgb(118,118,118)]">In order to graduate as a bachelor, the student will have to take:</div>
 
-<img src ="/instrumental.jpg" alt = "instrument" className="block max-w-[100%]"/>
+<Image src ="/instrumental.jpg" alt = "instrument" className="block max-w-[100%]"/>
         </div>
 
         <div className="grid md:grid-cols-2 grid-cols-1 gap-x-7">

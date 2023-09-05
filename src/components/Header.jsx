@@ -24,7 +24,7 @@ const pathname = usePathname()
   return (
     <div className="bg-[rgb(51,51,51)] sticky top-0 w-[100%] z-1">
     <div className="flex justify-between w-[90%] h-[70px] items-center mx-auto space-x-[80px]">
-        <div className="flex space-x-3 items-center"><Link href = "/" className="cursor-pointer"><img src = "/home.png" className="w-[60px] h-[60px]" /> </Link><Link href="/" className="font-bold text-[blue]">home</Link></div>
+        <div className="flex space-x-3 items-center"><Link href = "/" className="cursor-pointer"><Image src = "/home.png" className="w-[60px] h-[60px]" alt="header-image" /> </Link><Link href="/" className="font-bold text-[blue]">home</Link></div>
 
 
 

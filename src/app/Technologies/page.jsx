@@ -48,7 +48,7 @@ Scroll down to learn about teaching topics that may interest you</div>
 
 <h1 className="font-bold text-[14px] mt-6">Happy</h1>
 
-<div className="mt-6 text-[14px]">ELI5 significa "Explícame como si tuviera cinco", es la manera en como te daremos a entender los términos si no los entendiste. Cuando lo veas ya sabrás que significa.</div>
+<div className="mt-6 text-[14px]">ELI5 significa &quot;Explícame como si tuviera cinco&quot;, es la manera en como te daremos a entender los términos si no los entendiste. Cuando lo veas ya sabrás que significa.</div>
 
 </div>
 
