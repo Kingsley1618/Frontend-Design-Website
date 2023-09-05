@@ -16,7 +16,7 @@ export default function Home() {
   return (
     
     <main className="background relative">
-      <img src="/background.jpg" className="absolute z-[-1] brightness-50 h-[100%] w-[100%]  overflow-x-hidden" alt="image-background"/>
+      <Image width="100%" height = "100%" src="/background.jpg" className="absolute z-[-1] brightness-50 overflow-x-hidden" alt="image-background"/>
 <Header />
 <div className="" ref={ref} 
 style={{

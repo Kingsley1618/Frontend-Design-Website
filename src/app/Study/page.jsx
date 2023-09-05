@@ -6,7 +6,7 @@ import {PiStudent} from "react-icons/pi"
 import {AiOutlineStar} from "react-icons/ai"
 import Footer from '@/components/Footer'
 import { useInView } from "framer-motion"
-
+import Image from "next/image"
 
 export default function Study() {
     const scroll = useRef(null)
@@ -68,7 +68,7 @@ display:"block"
   </Carousel>
 
   <div className="grid lg:grid-cols-2 grid-cols-1 gap-x-8 mt-[100px] w-[80%] block mx-auto">
-<img src = "/graduate.jpg" className="w-[100%] block mx-auto" alt="graduate"/>
+<Image src = "/graduate.jpg" className="w-[100%] block mx-auto" alt="graduate"/>
 
 <div>
 <h1 className="text-[35px] lg:mt-0 mt-8">Benefits of an Upgrade</h1>

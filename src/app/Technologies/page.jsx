@@ -7,9 +7,7 @@ import {useReFunc} from "@/hooks/useRef"
 import Footer from '@/components/Footer'
 import {TiDocumentText} from "react-icons/ti"
 import {AiOutlineEye} from "react-icons/ai"
-export const metadata = {
-  title : "Technologies"
-}
+import Image from "next/image"
 export default function Technology() {
 const scrollView = useReFunc()
   return (
@@ -81,7 +79,7 @@ Scroll down to learn about teaching topics that may interest you</div>
 <div className='grid md:grid-cols-3 grid-cols-1 lg:w-[85%] md:w-[97%] w-[80%] mx-auto gap-x-8 gap-y-8'>
 
 <div className="relative pt-8 px-1 md:pb-[70px] pb-8 w-[100%]" >
-<img src="/blockchain.png" alt="blockchain" className="z-[-1] absolute object-cover top-0 w-[100%] h-[100%]"/>
+<Image width = "100%" height = "100%" src="/blockchain.png" alt="blockchain" className="z-[-1] absolute object-cover top-0"/>
 <div className="z-10 text-white">
     <h1 className="font-bold text-[25px] text-center">Blockchain</h1>
     <div className="mt-8 text-center max-w-[200px] block mx-auto">A blockchain is a digital, decentralized and public ledger of all cryptocurrency transactions</div>
@@ -90,7 +88,7 @@ Scroll down to learn about teaching topics that may interest you</div>
 
 
 <div className="relative pt-8 px-1 md:pb-[70px] pb-8 w-[100%]">
-<img src="/learning.png" alt="blockchain" className="z-[-1] absolute object-cover top-0 w-[100%] h-[100%]"/>
+<Image width = "100%" height = "100%" src="/blockchain.png" alt="blockchain" className="z-[-1] absolute object-cover top-0"/>
 <div className="z-10 text-white">
     <h1 className="font-bold text-[25px] text-center">Blockchain</h1>
     <div className="mt-8 text-center max-w-[200px] block mx-auto">A blockchain is a digital, decentralized and public ledger of all cryptocurrency transactions</div>
@@ -100,7 +98,7 @@ Scroll down to learn about teaching topics that may interest you</div>
 
 
 <div className="relative pt-8 px-1 md:pb-[70px] pb-8 w-[100%]" >
-<img src="/data.png" alt="blockchain" className="z-[-1] object-cover absolute top-0 w-[100%] h-[100%]"/>
+<Image width = "100%" height = "100%" src="/blockchain.png" alt="blockchain" className="z-[-1] absolute object-cover top-0"/>
 <div className="z-10 text-white">
     <h1 className="font-bold text-[25px] text-center">Blockchain</h1>
     <div className="mt-8 text-center max-w-[200px] block mx-auto">A blockchain is a digital, decentralized and public ledger of all cryptocurrency transactions</div>
@@ -110,7 +108,7 @@ Scroll down to learn about teaching topics that may interest you</div>
 
 <div className="relative pt-8 px-1 md:pb-[70px] pb-8 w-[100%]" >
     <div className="z-[-1] absolute top-0 w-[100%] overflow-x-hidden overflow-y-hidden h-[100%]">
-<img src="/reality.png" alt="blockchain" className="object-cover max-w-[700px]"/>
+    <Image width = "100%" height = "100%" src="/blockchain.png" alt="blockchain" className="z-[-1] absolute object-cover top-0"/>
 </div>
 <div className="z-10 text-white">
     <h1 className="font-bold text-[25px] text-center">Blockchain</h1>
@@ -120,7 +118,7 @@ Scroll down to learn about teaching topics that may interest you</div>
 
 
 <div className="relative pt-8 px-1 md:pb-[70px] pb-8 w-[100%]">
-<img src="/internet.png" alt="blockchain" className="z-[-1] object-cover absolute top-0 w-[100%] h-[100%]"/>
+<Image width = "100%" height = "100%" src="/blockchain.png" alt="blockchain" className="z-[-1] absolute object-cover top-0"/>
 <div className="z-10 text-white">
     <h1 className="font-bold text-[25px] text-center">Blockchain</h1>
     <div className="mt-8 text-center max-w-[200px] block mx-auto">A blockchain is a digital, decentralized and public ledger of all cryptocurrency transactions</div>
@@ -130,7 +128,7 @@ Scroll down to learn about teaching topics that may interest you</div>
 
 
 <div className="relative pt-8 px-1 md:pb-[70px] pb-8">
-<img src="/securitycyber.png" alt="blockchain" className="z-[-1] absolute top-0 w-[100%] h-[100%]"/>
+<Image width = "100%" height = "100%" src="/blockchain.png" alt="blockchain" className="z-[-1] absolute object-cover top-0"/>
 <div className="z-10 text-white">
     <h1 className="font-bold text-[25px] text-center">Blockchain</h1>
     <div className="mt-8 text-center max-w-[200px] block mx-auto">A blockchain is a digital, decentralized and public ledger of all cryptocurrency transactions</div>
